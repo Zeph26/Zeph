@@ -1,0 +1,63 @@
+#pic{
+    width: 400px;
+    height: 400px;
+    border-radius: 200px;
+
+}
+
+body{
+    background-image: linear-gradient(rgb(51, 44, 153), rgb(88, 162, 88));
+    text-align: center;
+}
+
+
+h1{
+    color: rgb(239, 34, 34);
+}
+
+p,h4,h2,h3{
+    color:white;
+    font-size: 18px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 30px;
+}
+
+#button1{
+  background-color: rgb(6, 216, 24);  
+  width: 150;
+  height: 50;
+ border-radius: 30px; 
+ color: white;
+ font-size: 15px;
+ font-weight: bolder;
+}
+
+.games{
+    display: flex;    
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+
+.game{
+    padding: 25px;
+
+}
+
+
+.game img{
+    border-radius: 20px;
+}
+
+#mail{
+    color : yellow;
+    font-size: 25;
+}
+
+.trippic{
+    width: 350;
+    height:250;
+    border-radius: 20px;
+    margin: 20px;
+}
